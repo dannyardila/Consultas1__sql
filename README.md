@@ -20,3 +20,8 @@
 
 ![Consulta2](consulta_2.png)
 
+### Consulta No. 2
+
+2. Para visualizar solamente la identificacion del cliente: `SELECT iden tificacion FROM Cliente`
+
+![Consultas3](Consultas_3.png)

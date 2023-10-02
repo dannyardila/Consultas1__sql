@@ -46,3 +46,10 @@ O se puede utilizar el operador `OR`
 
 ![Consultas4](Consultas_6.png)
 
+### Consulta No. 5
+
+5. Se desea obtener los registros cuya identificacion sea menor de 110 y la ciudad sea  Cali, se debe utilizar el operador `AND`
+
+`SELECT * FROM Cliente WHERE identificacion<=110 AND ciudad_nac = 'Cali'`
+
+![Consultas5](consultas_7.png)

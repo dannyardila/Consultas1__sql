@@ -136,3 +136,6 @@ O se puede utilizar el operador `OR`
 
 ![RELACION_1](/img/relacion_1.png)
 
+### Tabla de pedidos por cliente 
+
+![tabla_1](/img/tabla_pedidos.png)

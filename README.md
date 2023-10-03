@@ -4,7 +4,7 @@
 ## Base de datos: Ventas
 ## Tabla: cliente
 
-![Tabla cliente](tabla_cliente.png)
+![Tabla cliente](/img/tabla_cliente.png)
 
 ## Instruccion Select
 -Permite seleccionar datos de una tabla.
@@ -14,23 +14,23 @@
 1.Para visualizar toda la informacion que contiene la tabla Cliente sse puede incluir con la instruccion SELECT el caracter **/*** o cada uno de los campos de la tabla.
 
 -`SELECT * FROM Cliente`
-![Consulta1](consulta_1.png)
+![Consulta1](/img/consulta_1.png)
 
 -`SELECT identificacion, nombre, apellidos, direccion, telefono, ciudad_nac, fecha_nac FROM Cliente`
 
-![Consulta1_1](consulta_2.png)
+![Consulta1_1](/img/consulta_2.png)
 
 ### Consulta No. 2
 
 2. Para visualizar solamente la identificacion del cliente: `SELECT identificacion FROM Cliente`
 
-![Consultas2](Consultas_3.png)
+![Consultas2](/img/Consultas_3.png)
 
 ### Consulta No. 3
 
 3. Si se desea obtener los registros cuya iden tficacion sea mayor o igual a 150, se debe utilizar la clausula `WHERE` que especifica las condicciones que deben reunir los registros que van a seleccionar: `SELECT * FROM Cliente WHERE identificacion>=150`
 
-![Consultas3](Consultas_4.png)
+![Consultas3](/img/Consultas_4.png)
 
 
 ### Consulta No. 4
@@ -39,12 +39,12 @@
 
 `SELECT apellidos FROM Cliente WHERE apellidos IN ('Vanegas', Cetina')`
 
-![Consultas4](consultas_5.png)
+![Consultas4](/img/consultas_5.png)
 
 O se puede utilizar el operador `OR`
 `SELECT apellidos FROM Cliente WHERE apellidos ='Vanegas'OR apellidos = 'Cetina'`
 
-![Consultas4](Consultas_6.png)
+![Consultas4](/img/Consultas_6.png)
 
 ### Consulta No. 5
 
@@ -52,7 +52,7 @@ O se puede utilizar el operador `OR`
 
 `SELECT * FROM Cliente WHERE identificacion<=110 AND ciudad_nac = 'Cali'`
 
-![Consultas5](consultas_7.png)
+![Consultas5](/img/consultas_7.png)
 
 ### Consulta No. 6
 
@@ -60,7 +60,7 @@ O se puede utilizar el operador `OR`
 
 `SELECT * FROM Cliente WHERE nombre LIKE 'A%'`
 
-![Consultas6](consulta_8.png)
+![Consultas6](/img/consulta_8.png)
 
 ### Consulta No.7
 
@@ -69,7 +69,7 @@ O se puede utilizar el operador `OR`
 `SELECT * FROM Cliente WHERE nombre LIKE '%a%'`
 
 
-![Consultas7](consultas_9.png)
+![Consultas7](/img/consultas_9.png)
 
 ### Consultas No.8
 
@@ -77,7 +77,7 @@ O se puede utilizar el operador `OR`
 
 `SELECT * FROM Cliente WHERE nombre LIKE '____a'`
 
-![Consultas8](Consultas_10.png)
+![Consultas8](/img/Consultas_10.png)
 
 ### Consultas No. 9
 
@@ -85,7 +85,7 @@ O se puede utilizar el operador `OR`
 
 `SELECT * FROM Cliente WHERE identificacion BETWEEN 110 AND 150`
 
-![Consultas8](consultas_11.png)
+![Consultas8](/img/consultas_11.png)
 
 
 ## Instrucion DELETE
@@ -99,4 +99,4 @@ O se puede utilizar el operador `OR`
 
 `DELETE FROM Cliente WHERE identificacion > 150`
 
-![Eliminacion_1](eliminacion_1.png)
+![Eliminacion_1](/img/eliminacion_1.png)

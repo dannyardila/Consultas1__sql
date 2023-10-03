@@ -122,3 +122,17 @@ O se puede utilizar el operador `OR`
 
 ![Actualizacion_1](/img/Actualizacion_1.png)
 
+## creacion tabla pedido
+
+## Diccionario de datos
+
+|Campo|Tipo de dato|Longitud|
+|-----|------------|--------|
+|**no_pedido**|varchar|15|
+|iden_cliente|varchar|15|
+|fecha_compra|date||
+|fecha_vencimiento|date||
+|Observacion|varchar|30|
+
+![RELACION_1](/img/relacion_1.png)
+

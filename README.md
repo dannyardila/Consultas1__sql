@@ -70,3 +70,9 @@ O se puede utilizar el operador `OR`
 
 
 ![Consultas7](consultas_9.png)
+
+### Consultas No.8
+
+8. l
+
+![Consultas7](consultas_10.png)

@@ -64,7 +64,9 @@ O se puede utilizar el operador `OR`
 
 ### Consulta No.7
 
-7. 
+7. Se desea obtener los registros cuyos nombres contengan la letra 'a'
+
+`SELECT * FROM Cliente WHERE nombre LIKE '%a%'`
 
 
-![Consultas7](consulta_9.png)
+![Consultas7](consultas_9.png)

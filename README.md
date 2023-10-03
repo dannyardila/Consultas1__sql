@@ -61,3 +61,10 @@ O se puede utilizar el operador `OR`
 `SELECT * FROM Cliente WHERE nombre LIKE 'A%'`
 
 ![Consultas6](consulta_8.png)
+
+### Consulta No.7
+
+7. 
+
+
+![Consultas7](consulta_9.png)

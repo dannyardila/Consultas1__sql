@@ -155,5 +155,10 @@ O se puede utilizar el operador `OR`
 
 `SELECT Cliente,identificacion, Cliente.nombre, Cliente.apellidos, Pedido.no_pedido, Pedido. fecha_compra, Pedido.fecha_vencimiento, Pedido.observacion FROM Cliente INNER JOIN Pedido ON Cliente identificacion = Pedido.iden_cliente`
 
-![INNER JOIN](/img/inner1.png)
+![INNER JOIN 1](/img/inner1.png)
 
+2. Para visualizar todos los campos de las tablas cliente y pedido donde identificacion sea mayor que 100, se debe realizar la siguiente instruccion:
+
+`SELECT  Cliente ,*, Pedido,* FROM Cliente INNER JOIN Pedido ON Cliente.identificacion = Pedido.iden_cliente WHERE Cliente.identificacion>100`
+
+![INNER JOIN 2](/img/inner2.png)
